@@ -79,7 +79,8 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto",
+        "wireguard IPv6",
+        "wireguard IPv4",
         "Warp Over Vless UK 🇬🇧",
         "Warp Over Vless NL 🇳🇱"
       ],
