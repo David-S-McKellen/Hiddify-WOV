@@ -79,8 +79,7 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "wireguard IPv6",
-        "wireguard IPv4",
+        "auto",
         "Warp Over Vless UK 🇬🇧",
         "Warp Over Vless NL 🇳🇱"
       ],
@@ -98,7 +97,7 @@
       "idle_timeout": "1h40m0s"
     },
     {
-      "type": "wireguard IPv6",
+      "type": "wireguard",
       "tag": "Iran IP §hide§",
       "local_address": [
         "172.16.0.2/24"
@@ -117,7 +116,7 @@
       "fake_packets_delay": "10-30"
     },
     {
-      "type": "wireguard IPv4",
+      "type": "wireguard",
       "tag": "Iran IP §hide§",
       "local_address": "172.16.0.2/24",
       "private_key": "YKXycxjE++fLtDVAlk+JSuQ4f+bdTngipxAl6qN/WEA=",
