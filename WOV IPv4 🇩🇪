@@ -23,8 +23,8 @@
       "type": "vless",
       "tag": "Warp Over Vless DE 🇩🇪",
    "detour": "Iran IP §hide§",
-      "server": "[2606:4700:b:2eb4:fedc:c084:55b3:21c4]",
-      "server_port": 443,
+      "server": "104.20.28.70",
+      "server_port": 2087,
       "uuid": "a60cbab1-0652-44b2-aa27-cdab033107a3",
       "tls": {
         "enabled": true,
