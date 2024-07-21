@@ -14,10 +14,10 @@
           54,150,167
         ],
 
-      "mtu": 1280,
-      "fake_packets": "8-15",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "20-250"
+      "mtu": 1330,
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30"
     },
     {
       "type": "vless",
