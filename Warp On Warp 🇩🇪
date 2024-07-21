@@ -124,8 +124,8 @@
       "server_port": 859,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "Npan",
-      "mtu": 1330,
-      "fake_packets": "5-10",
+      "mtu": 1384,
+      "fake_packets": "10-20",
       "fake_packets_size": "10-30",
       "fake_packets_delay": "10-30"
     },
