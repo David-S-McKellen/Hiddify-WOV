@@ -1,0 +1,48 @@
+{
+  "outbounds": [
+    {
+      "type": "wireguard",
+      "tag": "Iran IP §hide§",
+      "local_address": [
+        "172.16.0.2/24"
+      ],
+      "private_key": "YKXycxjE++fLtDVAlk+JSuQ4f+bdTngipxAl6qN/WEA=",
+      "server": "162.159.192.101",
+      "server_port": 943,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [
+          54,150,167
+        ],
+
+      "mtu": 1280,
+      "fake_packets": "8-15",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "20-250"
+    },
+    {
+      "type": "vless",
+      "tag": "Warp Over Vless DE 🇩🇪",
+   "detour": "Iran IP §hide§",
+      "server": "[2606:4700:b:2eb4:fedc:c084:55b3:21c4]",
+      "server_port": 443,
+      "uuid": "a60cbab1-0652-44b2-aa27-cdab033107a3",
+      "tls": {
+        "enabled": true,
+        "server_name": "VpN-33X.PaGes.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Yq3LcV3Ne9LcpFYT?ed=2560",
+        "headers": {
+          "Host": "VPN-33x.PAgEs.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    }
+  ]
+}
