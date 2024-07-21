@@ -126,8 +126,8 @@
       "reserved": "Npan",
       "mtu": 1384,
       "fake_packets": "10-20",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "10-30"
+      "fake_packets_size": "20-60",
+      "fake_packets_delay": "5-10"
     },
     {
       "type": "wireguard",
