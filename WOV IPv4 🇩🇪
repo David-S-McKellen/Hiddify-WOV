@@ -7,8 +7,8 @@
         "172.16.0.2/24"
       ],
       "private_key": "YKXycxjE++fLtDVAlk+JSuQ4f+bdTngipxAl6qN/WEA=",
-      "server": "188.114.97.185",
-      "server_port": 859,
+      "server": "162.159.192.105",
+      "server_port": 939,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [
           54,150,167
