@@ -101,8 +101,8 @@
       "tag": "Iran IP §hide§",
       "local_address": "172.16.0.2/24",
       "private_key": "YKXycxjE++fLtDVAlk+JSuQ4f+bdTngipxAl6qN/WEA=",
-      "server": "162.159.192.132",
-      "server_port": 903,
+      "server": "162.159.192.101",
+      "server_port": 943,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [
           54,150,167
