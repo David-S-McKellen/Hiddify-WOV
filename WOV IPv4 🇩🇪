@@ -7,8 +7,8 @@
         "172.16.0.2/24"
       ],
       "private_key": "YKXycxjE++fLtDVAlk+JSuQ4f+bdTngipxAl6qN/WEA=",
-      "server": "162.159.192.101",
-      "server_port": 943,
+      "server": "188.114.97.185",
+      "server_port": 859,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [
           54,150,167
@@ -23,15 +23,15 @@
       "type": "vless",
       "tag": "Warp Over Vless DE 🇩🇪",
    "detour": "Iran IP §hide§",
-      "server": "104.20.28.70",
-      "server_port": 2087,
+      "server": "2.189.59.11",
+      "server_port": 443,
       "uuid": "a60cbab1-0652-44b2-aa27-cdab033107a3",
       "tls": {
         "enabled": true,
         "server_name": "VpN-33X.PaGes.dev",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
