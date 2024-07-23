@@ -18,7 +18,7 @@
       },
       {
         "tag": "dns-direct",
-        "address": "1.1.1.1",
+        "address": "185.228.168.9",
         "address_resolver": "dns-local",
         "detour": "direct"
       },
