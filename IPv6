@@ -8,7 +8,7 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "https://doh.cleanbrowsing.org/doh/security-filter/",
+        "address": "https://lk8lbkbdcm.cloudflare-gateway.com/dns-query",
         "address_resolver": "dns-direct"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "tag": "dns-direct",
-        "address": "185.228.168.9",
+        "address": "172.64.36.1",
         "address_resolver": "dns-local",
         "detour": "direct"
       },
