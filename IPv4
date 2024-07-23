@@ -8,7 +8,7 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "tls://1.1.1.1",
+        "address": "https://doh.cleanbrowsing.org/doh/security-filter/",
         "address_resolver": "dns-direct"
       },
       {
