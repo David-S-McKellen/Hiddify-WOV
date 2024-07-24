@@ -21,7 +21,7 @@
       "tag": "Warp Over Vless DE 🇩🇪",
    "detour": "Iran IP §hide§",
       "server": "172.66.44.151",
-      "server_port": 8443,
+      "server_port": 443,
       "uuid": "a60cbab1-0652-44b2-aa27-cdab033107a3",
       "tls": {
         "enabled": true,
