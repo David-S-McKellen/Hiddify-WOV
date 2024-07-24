@@ -116,7 +116,7 @@
       "detour": "Iran IP §hide§",
       "server": "198.244.190.189",
       "server_port": 443,
-      "uuid": "4870cb2b-b882-4b86-a4b6-44c6756d6f48",
+      "uuid": "cf9be1c5-46e2-4f42-99bc-e7bbca1115ca",
       "tls": {
         "enabled": true,
         "server_name": "uk-full.privateip.net",
@@ -141,7 +141,7 @@
    "detour": "Iran IP §hide§",
       "server": "188.119.112.242",
       "server_port": 443,
-      "uuid": "35872f2b-a01e-40c0-9691-09a5637f5b83",
+      "uuid": "2e0b754f-ff83-4597-9710-defe07740f7f",
       "tls": {
         "enabled": true,
         "server_name": "nl-full.privateip.net",
