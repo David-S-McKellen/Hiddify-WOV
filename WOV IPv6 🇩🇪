@@ -11,7 +11,7 @@
       "server_port": 880,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "Npan",
-      "mtu": 1440,
+      "mtu": 1384,
       "fake_packets": "10-20",
       "fake_packets_size": "20-60",
       "fake_packets_delay": "5-10"
