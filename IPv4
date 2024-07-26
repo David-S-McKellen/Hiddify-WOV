@@ -51,8 +51,8 @@
       "sky.rethinkdns.com": [
         "104.17.147.22",
         "104.17.148.22",
-        "188.114.97.3",
-        "188.114.96.3"
+        "188.114.99.0",
+        "188.114.98.0"
       ]
     },
     "independent_cache": true
@@ -108,7 +108,7 @@
       "mtu": 1280,
       "fake_packets": "40-80",
       "fake_packets_size": "40-100",
-      "fake_packets_mode": "m4",
+      "fake_packets_mode": "Iran IP §hide",
       "fake_packets_delay": "4-8"
     },
     {
