@@ -69,8 +69,8 @@
       "type": "wireguard",
       "tag": "proxy",
       "detour": "warp ir",
-      "server": "188.114.98.200",
-      "server_port": 500,
+      "server": "162.159.192.104",
+      "server_port": 1010,
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:8647:5ccc:a119:8fa3:8a2f/128"
@@ -82,13 +82,13 @@
         150,
         167
       ],
-      "mtu": 1280
+      "mtu": 1343
     },
     {
       "type": "wireguard",
       "tag": "warp ir",
-      "server": "188.114.98.200",
-      "server_port": 500,
+      "server": "162.159.192.104",
+      "server_port": 1010,
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:85d9:bbbd:153e:b7c6:9d0f/128"
