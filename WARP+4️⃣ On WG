@@ -120,7 +120,7 @@
         150,
         167
       ],
-      "mtu": "1343",
+      "mtu": 1343,
       "fake_packets": "40-80",
       "fake_packets_size": "40-100",
       "fake_packets_delay": "4-8",
