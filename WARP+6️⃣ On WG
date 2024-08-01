@@ -85,8 +85,7 @@
         "Proton 🇺🇲",
         "keepsolid 🇱🇺",
         "Windscribe 🇫🇷"
-        "🇸🇪🟡myH2 on IPv4️⃣",
-        "🇸🇪🟡myH2 on IPv6️⃣"
+        "🇸🇪🟡myH2 on IPv4️⃣"
       ],
       "default": "auto"
     },
@@ -99,8 +98,7 @@
         "Proton 🇺🇲",
         "keepsolid 🇱🇺",
         "Windscribe 🇫🇷",
-        "🇸🇪🟡myH2 on IPv4️⃣",
-        "🇸🇪🟡myH2 on IPv6️⃣"
+        "🇸🇪🟡myH2 on IPv4️⃣"
       ],
       "url": "https://www.google.com/generate_204",
       "interval": "10m0s",
@@ -190,28 +188,6 @@
       "type": "hysteria2",
       "domain_strategy": "",
       "tag": "🇸🇪🟡myH2 on IPv4️⃣",
-      "detour": "WARP+6️⃣"
-    },
-    {
-      "obfs": {
-        "password": "fd784f88798796c1",
-        "type": "salamander"
-      },
-      "password": "04bb42227f7c629c",
-      "server": "2a12:5940:bbac::2",
-      "server_port": 2087,
-      "tls": {
-        "alpn": [
-          "h3"
-        ],
-        "enabled": true,
-        "insecure": true,
-        "server_name": "www.google.c"
-      },
-      "up_mbps": 0,
-      "type": "hysteria2",
-      "domain_strategy": "",
-      "tag": "🇸🇪🟡myH2 on IPv6️⃣",
       "detour": "WARP+6️⃣"
     },
     {
