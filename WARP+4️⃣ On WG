@@ -80,7 +80,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "WARP+",
+        "WARP+4️⃣",
         "Proton 🇳🇱",
         "Proton 🇺🇲",
         "keepsolid 🇱🇺",
@@ -92,7 +92,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "WARP+",
+        "WARP+4️⃣",
         "Proton 🇳🇱",
         "Proton 🇺🇲",
         "keepsolid 🇱🇺",
