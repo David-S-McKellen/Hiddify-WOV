@@ -104,7 +104,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "WARP+",
+      "tag": "WARP+6️⃣",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
@@ -123,7 +123,7 @@
     {
       "type": "wireguard",
       "tag": "Proton 🇳🇱",
-      "detour": "WARP+",
+      "detour": "WARP+6️⃣",
       "local_address": "10.2.0.2/32",
       "private_key": "yJfb4TDiAq7Kk/tv2fZdZ5b5FvhRt8AqgPLTSImW83o=",
       "server": "185.107.56.69",
@@ -134,7 +134,7 @@
     {
       "type": "wireguard",
       "tag": "Proton 🇺🇲",
-      "detour": "WARP+",
+      "detour": "WARP+6️⃣",
       "local_address": "10.2.0.2/32",
       "private_key": "+I/EmmHHPCERnKJSz8mhc/usGxGsYduwf+4W2e8PNHs=",
       "server": "37.19.200.1",
@@ -145,7 +145,7 @@
     {
       "type": "wireguard",
       "tag": "keepsolid 🇱🇺",
-      "detour": "WARP+",
+      "detour": "WARP+6️⃣",
       "local_address": "10.100.76.125/32",
       "private_key": "WBJXUP/WU1sYex3nOV9KaL2Lu30xC8pBY1svvyJnG3M=",
       "server": "185.105.3.86",
@@ -157,7 +157,7 @@
     {
       "type": "wireguard",
       "tag": "Windscribe 🇫🇷",
-      "detour": "WARP+",
+      "detour": "WARP+6️⃣",
       "local_address": "100.100.196.8/32",
       "private_key": "qKgJJNTkkAr37k74Ix7FkdB3tVIHE1rQBOp4adjm2HU=",
       "server": "138.199.47.222",
@@ -185,8 +185,30 @@
       "up_mbps": 0,
       "type": "hysteria2",
       "domain_strategy": "",
-      "tag": "🇸🇪🟡myH2 on Warp4️⃣",
-      "detour": "WARP+"
+      "tag": "🇸🇪🟡myH2 on WARP+6️⃣",
+      "detour": "WARP+6️⃣"
+    },
+    {
+      "obfs": {
+        "password": "fd784f88798796c1",
+        "type": "salamander"
+      },
+      "password": "04bb42227f7c629c",
+      "server": "2a12:5940:bbac::2",
+      "server_port": 2087,
+      "tls": {
+        "alpn": [
+          "h3"
+        ],
+        "enabled": true,
+        "insecure": true,
+        "server_name": "www.google.c"
+      },
+      "up_mbps": 0,
+      "type": "hysteria2",
+      "domain_strategy": "",
+      "tag": "🇸🇪🟡myH2 on Warp6️⃣",
+      "detour": "WARP+6️⃣"
     },
     {
       "type": "dns",
