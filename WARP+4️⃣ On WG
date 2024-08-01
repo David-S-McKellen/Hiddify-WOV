@@ -96,7 +96,9 @@
         "Proton 🇳🇱",
         "Proton 🇺🇲",
         "keepsolid 🇱🇺",
-        "Windscribe 🇫🇷"
+        "Windscribe 🇫🇷",
+        "🇸🇪🟡myH2 on IPv4️⃣",
+        "🇸🇪🟡myH2 on IPv6️⃣"
       ],
       "url": "https://www.google.com/generate_204",
       "interval": "10m0s",
@@ -188,7 +190,7 @@
       "tag": "🇸🇪🟡myH2 on IPv4️⃣",
       "detour": "WARP+4️⃣"
     },
-{
+    {
       "obfs": {
         "password": "fd784f88798796c1",
         "type": "salamander"
