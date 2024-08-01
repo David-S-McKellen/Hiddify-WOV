@@ -152,7 +152,7 @@
       "server_port": 15277,
       "peer_public_key": "1OMiPeZszkb2MyR5bVf9USuzarUT6oPI11Wg2UHNaGU=",
       "pre_shared_key": "7acvQqya/mYNEWoicGF0dQuYu3fenmZjPvXZhdYc5qg=",
-      "persistent_Keep_alive": "25"
+      "per_sistent_Keep_alive": "25"
     },
     {
       "type": "wireguard",
