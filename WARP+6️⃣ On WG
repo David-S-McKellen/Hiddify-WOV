@@ -85,6 +85,8 @@
         "Proton 🇺🇲",
         "keepsolid 🇱🇺",
         "Windscribe 🇫🇷"
+        "🇸🇪🟡myH2 on IPv4️⃣",
+        "🇸🇪🟡myH2 on IPv6️⃣"
       ],
       "default": "auto"
     },
@@ -96,7 +98,9 @@
         "Proton 🇳🇱",
         "Proton 🇺🇲",
         "keepsolid 🇱🇺",
-        "Windscribe 🇫🇷"
+        "Windscribe 🇫🇷",
+        "🇸🇪🟡myH2 on IPv4️⃣",
+        "🇸🇪🟡myH2 on IPv6️⃣"
       ],
       "url": "https://www.google.com/generate_204",
       "interval": "10m0s",
