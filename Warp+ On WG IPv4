@@ -147,7 +147,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "Proton 🇺🇸",
+      "tag": "Proton 🇺🇲",
       "detour": "WARP+",
       "local_address": [
         "10.2.0.2/32"
