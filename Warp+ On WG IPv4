@@ -1,9 +1,3 @@
-//profile-title: base64:UHJvdG9uIE9OIFdBUlAr
-//profile-update-interval: 48
-//subscription-userinfo: upload=5368709120; download=117037858816; total=955630223360; expire=1762677732
-//support-url: https://t.me/YHASC
-//profile-web-page-url: https://github.com/David-S-McKellen
-
 {
   "log": {
     "level": "warn",
