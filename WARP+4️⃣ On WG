@@ -8,7 +8,7 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "tls://1.1.1.1",
+        "address": "udp://8.8.8.8",
         "address_resolver": "dns-direct"
       },
       {
