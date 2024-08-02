@@ -131,7 +131,7 @@
     {
       "type": "wireguard",
       "tag": "PROXY+4️⃣🇩🇪",
-      "detour": "PROXY+4️⃣🇩🇪",
+      "detour": "WARP+4️⃣",
       "server": "162.159.195.123",
       "server_port": 3138,
       "local_address": [
