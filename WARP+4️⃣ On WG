@@ -138,13 +138,9 @@
         "172.16.0.2/32",
         "2606:4700:110:85d9:bbbd:153e:b7c6:9d0f/128"
       ],
-      "private_key": "wIEkzPK5rXAwjVoEG+QosuUsW1j9ppDjQO0iM/Z0pFQ=",
+      "private_key": "4AO6L2oBh6HN/8ZiBUwMOzphMZItrtnK/M7Y3mkEVEQ=",
       "peer_public_key": "bmXOC\u002BF1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [
-        41,
-        253,
-        217
-      ],
+      "reserved": "9+Qc",
       "mtu": 1280
     },
     {
