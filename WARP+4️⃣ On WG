@@ -81,6 +81,7 @@
       "outbounds": [
         "auto",
         "WARP+4️⃣",
+        "WARP+4️⃣🇩🇪",
         "Proton 🇳🇱",
         "Proton 🇺🇸",
         "keepsolid 🇸🇪",
@@ -94,6 +95,7 @@
       "tag": "auto",
       "outbounds": [
         "WARP+4️⃣",
+        "WARP+4️⃣🇩🇪",
         "Proton 🇳🇱",
         "Proton 🇺🇸",
         "keepsolid 🇸🇪",
@@ -107,6 +109,7 @@
     {
       "type": "wireguard",
       "tag": "WARP+4️⃣",
+      "detour": "warp ir",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
@@ -128,6 +131,24 @@
     },
     {
       "type": "wireguard",
+      "tag": "WARP+4️⃣🇩🇪",
+      "server": "162.159.195.123",
+      "server_port": 3138,
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:85d9:bbbd:153e:b7c6:9d0f/128"
+      ],
+      "private_key": "wIEkzPK5rXAwjVoEG+QosuUsW1j9ppDjQO0iM/Z0pFQ=",
+      "peer_public_key": "bmXOC\u002BF1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [
+        41,
+        253,
+        217
+      ],
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
       "tag": "Proton 🇳🇱",
       "detour": "WARP+4️⃣",
       "local_address": "10.2.0.2/32",
@@ -135,7 +156,7 @@
       "server": "185.107.56.235",
       "server_port": 51820,
       "peer_public_key": "ocCFVEDN+6fTFKg96mQ6fW+oBTTZ9gW6xEk8gxTiR1E=",
-      "mtu": 1280,
+      "mtu": 1130,
       "fake_packets": "5-10"
     },
     {
@@ -147,7 +168,7 @@
       "server": "149.88.25.129",
       "server_port": 51820,
       "peer_public_key": "z9XIDCXS950+Q+fQnQG6pFi3B07DxntrT7JrQMLsUWQ=",
-      "mtu": 1280,
+      "mtu": 1130,
       "fake_packets": "5-10"
     },
     {
@@ -160,7 +181,7 @@
       "server_port": 15271,
       "peer_public_key": "qIUXq7YcvvNlmd3HFHs/PUOnKWkibHTw7eNlKBC6D2Y=",
       "pre_shared_key": "3ctue2jDqHOX5Z2bk+kQSF5lklmteeE6KAPmJG4dwj0=",
-      "mtu": 1180
+      "mtu": 1130
     },
     {
       "type": "wireguard",
