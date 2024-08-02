@@ -81,7 +81,7 @@
       "outbounds": [
         "auto",
         "WARP+4️⃣",
-        "WARP+4️⃣🇩🇪",
+        "PROXY+4️⃣🇩🇪",
         "Proton 🇳🇱",
         "Proton 🇺🇸",
         "keepsolid 🇸🇪",
@@ -95,7 +95,7 @@
       "tag": "auto",
       "outbounds": [
         "WARP+4️⃣",
-        "WARP+4️⃣🇩🇪",
+        "PROXY+4️⃣🇩🇪",
         "Proton 🇳🇱",
         "Proton 🇺🇸",
         "keepsolid 🇸🇪",
@@ -109,7 +109,7 @@
     {
       "type": "wireguard",
       "tag": "WARP+4️⃣",
-      "detour": "warp ir",
+      "detour": "PROXY+4️⃣🇩🇪",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
@@ -131,7 +131,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "WARP+4️⃣🇩🇪",
+      "tag": "PROXY+4️⃣🇩🇪",
       "server": "162.159.195.123",
       "server_port": 3138,
       "local_address": [
