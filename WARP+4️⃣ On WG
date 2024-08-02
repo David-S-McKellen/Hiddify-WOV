@@ -109,7 +109,6 @@
     {
       "type": "wireguard",
       "tag": "WARP+4️⃣",
-      "detour": "PROXY+4️⃣🇩🇪",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
@@ -126,11 +125,13 @@
       "mtu": 1306,
       "fake_packets": "40-80",
       "fake_packets_size": "40-100",
-      "fake_packets_delay": "4-8"
+      "fake_packets_delay": "4-8",
+      "fake_packets_mode": "m4"
     },
     {
       "type": "wireguard",
       "tag": "PROXY+4️⃣🇩🇪",
+      "detour": "PROXY+4️⃣🇩🇪",
       "server": "162.159.195.123",
       "server_port": 3138,
       "local_address": [
