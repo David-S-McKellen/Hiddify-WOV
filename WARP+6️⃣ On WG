@@ -84,11 +84,7 @@
         "Proton 🇳🇱",
         "Proton 🇺🇸",
         "keepsolid 🇸🇪",
-        "Windscribe 🇫🇷",
-        "🇳🇱 𝐈𝐑𝐂𝐏 | 𝟏\u0026𝟐\n@Ln2Ray § vl+ws+tls+cdn+frag",
-        "💦 BPB - IPv4 🇩🇪",
-        "💦 BPB - IPv6 🇩🇪",
-        "🇸🇪🟡myH2 on IPv4️⃣"
+        "🇳🇱 𝐈𝐑𝐂𝐏 | 𝟏\u0026𝟐\n@Ln2Ray § vl+ws+tls+cdn+frag"
       ],
       "default": "auto"
     },
@@ -100,11 +96,7 @@
         "Proton 🇳🇱",
         "Proton 🇺🇸",
         "keepsolid 🇸🇪",
-        "Windscribe 🇫🇷",
-        "🇳🇱 𝐈𝐑𝐂𝐏 | 𝟏\u0026𝟐\n@Ln2Ray § vl+ws+tls+cdn+frag",
-        "💦 BPB - IPv4 🇩🇪",
-        "💦 BPB - IPv6 🇩🇪",
-        "🇸🇪🟡myH2 on IPv4️⃣"
+        "🇳🇱 𝐈𝐑𝐂𝐏 | 𝟏\u0026𝟐\n@Ln2Ray § vl+ws+tls+cdn+frag"
       ],
       "url": "https://www.google.com/generate_204",
       "interval": "10m0s",
@@ -126,7 +118,11 @@
         150,
         167
       ],
-      "mtu": 1280
+      "mtu": 1280,
+      "fake_packets_mode": "m4",
+         "fake_packets": "40-80",
+         "fake_packets_size": "40-100",
+         "fake_packets_delay": "4-8"
     },
     {
       "type": "vless",
@@ -161,56 +157,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "💦 BPB - IPv4 🇩🇪",
-      "server": "172.66.44.151",
-      "server_port": 443,
-      "uuid": "a60cbab1-0652-44b2-aa27-cdab033107a3",
-      "tls": {
-        "enabled": true,
-        "server_name": "VPN-33X.PaGeS.dEv",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/1YuylXrlRGsECMZn/YmVzdHByb3h5Lm9uZWNmLmV1Lm9yZw==",
-        "headers": {
-          "Host": "VpN-33x.PAGes.deV"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "💦 BPB - IPv6 🇩🇪",
-      "server": "2606:4700:310c::ac42:2c97",
-      "server_port": 443,
-      "uuid": "a60cbab1-0652-44b2-aa27-cdab033107a3",
-      "tls": {
-        "enabled": true,
-        "server_name": "vPn-33x.pAgES.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ibUhnVut9Tl54eTB/YmVzdHByb3h5Lm9uZWNmLmV1Lm9yZw==",
-        "headers": {
-          "Host": "Vpn-33x.PAgEs.Dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "wireguard",
       "tag": "Proton 🇳🇱",
       "detour": "WARP+6️⃣",
@@ -240,39 +186,6 @@
       "server_port": 15271,
       "peer_public_key": "qIUXq7YcvvNlmd3HFHs/PUOnKWkibHTw7eNlKBC6D2Y=",
       "pre_shared_key": "3ctue2jDqHOX5Z2bk+kQSF5lklmteeE6KAPmJG4dwj0="
-    },
-    {
-      "type": "wireguard",
-      "tag": "Windscribe 🇫🇷",
-      "detour": "WARP+6️⃣",
-      "local_address": "100.100.196.8/32",
-      "private_key": "qKgJJNTkkAr37k74Ix7FkdB3tVIHE1rQBOp4adjm2HU=",
-      "server": "138.199.47.222",
-      "server_port": 65142,
-      "peer_public_key": "cmaT8JIehfRf5PWWDkcBRwLWDb3jrIkk/SDbw4JmUAc=",
-      "pre_shared_key": "p9oZWElz4vn74dOqa0+UNIJGxy2/VeBF6b8YIfmVgY0="
-    },
-    {
-      "obfs": {
-        "password": "fd784f88798796c1",
-        "type": "salamander"
-      },
-      "password": "04bb42227f7c629c",
-      "server": "77.91.87.167",
-      "server_port": 2087,
-      "tls": {
-        "alpn": [
-          "h3"
-        ],
-        "enabled": true,
-        "insecure": true,
-        "server_name": "www.google.c"
-      },
-      "up_mbps": 0,
-      "type": "hysteria2",
-      "domain_strategy": "",
-      "tag": "🇸🇪🟡myH2 on IPv4️⃣",
-      "detour": "WARP+6️⃣"
     },
     {
       "type": "dns",
