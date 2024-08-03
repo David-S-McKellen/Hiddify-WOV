@@ -218,9 +218,7 @@
       "private_key": "yJfb4TDiAq7Kk/tv2fZdZ5b5FvhRt8AqgPLTSImW83o=",
       "server": "185.107.56.69",
       "server_port": 51820,
-      "peer_public_key": "WM3qIvkeeD+ouwERuqCVZds82cvh+vsGQPG6ibBGDGA=",
-      "mtu": 1130,
-      "fake_packets": "5-10"
+      "peer_public_key": "WM3qIvkeeD+ouwERuqCVZds82cvh+vsGQPG6ibBGDGA="
     },
     {
       "type": "wireguard",
