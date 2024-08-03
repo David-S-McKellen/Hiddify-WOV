@@ -203,7 +203,6 @@
     {
       "type": "wireguard",
       "tag": "Proton 🇳🇱",
-      "detour": "LocalIP § 0",
       "local_address": "10.2.0.2/32",
       "private_key": "UMseI+FUx6pUYTigy1YnqCvD7rWx4eQP6vGBcnyUPFc=",
       "server": "185.107.56.235",
@@ -215,7 +214,6 @@
     {
       "type": "vless",
       "tag": "🇳🇱 𝐈𝐑𝐂𝐏 | 𝟏\u0026𝟐\n@Ln2Ray § vl+ws+tls+cdn+frag",
-      "detour": "LocalIP § 0",
       "tls_fragment": {
         "enabled": true,
         "size": "10-20",
@@ -247,7 +245,6 @@
     {
       "type": "wireguard",
       "tag": "Proton 🇺🇸",
-      "detour": "LocalIP § 0",
       "local_address": "10.2.0.2/32",
       "private_key": "aM2E4uYh/LmqCf7A1QSZIRTstXPR3TBQG03CnEqHHkc=",
       "server": "149.88.25.129",
@@ -259,7 +256,6 @@
     {
       "type": "wireguard",
       "tag": "keepsolid 🇸🇪",
-      "detour": "LocalIP § 0",
       "local_address": "10.102.229.92/32",
       "private_key": "YNRzie9iJxPJ4/vyNAg/T99TnsuvED1vqm+DrqnE+lE=",
       "server": "94.131.115.66",
@@ -271,7 +267,6 @@
     {
       "type": "wireguard",
       "tag": "Windscribe 🇫🇷",
-      "detour": "LocalIP § 0",
       "local_address": "100.100.196.8/32",
       "private_key": "qKgJJNTkkAr37k74Ix7FkdB3tVIHE1rQBOp4adjm2HU=",
       "server": "138.199.47.222",
