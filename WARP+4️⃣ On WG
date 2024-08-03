@@ -92,7 +92,6 @@
         "Proton 🇳🇱",
         "Proton 🇺🇸",
         "keepsolid 🇸🇪",
-        "Windscribe 🇫🇷",
         "🇳🇱 𝐈𝐑𝐂𝐏 | 𝟏\u0026𝟐\n@Ln2Ray § vl+ws+tls+cdn+frag",
         "🇸🇪🟡myH2 on IPv4️⃣"
       ],
@@ -107,7 +106,6 @@
         "Proton 🇳🇱",
         "Proton 🇺🇸",
         "keepsolid 🇸🇪",
-        "Windscribe 🇫🇷",
         "🇳🇱 𝐈𝐑𝐂𝐏 | 𝟏\u0026𝟐\n@Ln2Ray § vl+ws+tls+cdn+frag",
         "🇸🇪🟡myH2 on IPv4️⃣"
       ],
@@ -211,17 +209,6 @@
       "server_port": 15271,
       "peer_public_key": "qIUXq7YcvvNlmd3HFHs/PUOnKWkibHTw7eNlKBC6D2Y=",
       "pre_shared_key": "3ctue2jDqHOX5Z2bk+kQSF5lklmteeE6KAPmJG4dwj0="
-    },
-    {
-      "type": "wireguard",
-      "tag": "Windscribe 🇫🇷",
-      "detour": "WARP+4️⃣",
-      "local_address": "100.100.196.8/32",
-      "private_key": "qKgJJNTkkAr37k74Ix7FkdB3tVIHE1rQBOp4adjm2HU=",
-      "server": "138.199.47.222",
-      "server_port": 65142,
-      "peer_public_key": "cmaT8JIehfRf5PWWDkcBRwLWDb3jrIkk/SDbw4JmUAc=",
-      "pre_shared_key": "p9oZWElz4vn74dOqa0+UNIJGxy2/VeBF6b8YIfmVgY0="
     },
     {
       "obfs": {
