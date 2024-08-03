@@ -126,11 +126,7 @@
         150,
         167
       ],
-      "mtu": 1306,
-      "fake_packets": "40-80",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "4-8",
-      "fake_packets_mode": "m4"
+      "mtu": 1280
     },
     {
       "type": "vless",
