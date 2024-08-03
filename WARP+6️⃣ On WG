@@ -167,7 +167,6 @@
 {
       "type": "vless",
       "tag": "💦 BPB - IPv4 🇩🇪",
-      "detour": "WARP+6️⃣",
       "tls_fragment": {
         "enabled": true,
         "size": "10-20",
@@ -201,7 +200,6 @@
 {
       "type": "vless",
       "tag": "💦 BPB - IPv6 🇩🇪",
-      "detour": "WARP+6️⃣",
       "tls_fragment": {
         "enabled": true,
         "size": "10-20",
