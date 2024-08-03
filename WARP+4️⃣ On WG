@@ -34,7 +34,7 @@
     ],
     "rules": [
       {
-        "domain": "cp.cloudflare.com",
+        "domain": "connectivitycheck.gstatic.com",
         "server": "dns-remote",
         "rewrite_ttl": 3000
       },
@@ -43,16 +43,22 @@
           "geoip-ir",
           "geosite-ir"
         ],
+       "server": "dns-direct"
+      },
+      {
+        "domain_suffix": ".ir",
         "server": "dns-direct"
       }
     ],
     "final": "dns-remote",
     "static_ips": {
       "sky.rethinkdns.com": [
-        "104.17.147.22",
         "104.17.148.22",
-        "188.114.97.3",
-        "188.114.96.3"
+        "104.17.147.22",
+        "2a06:98c1:3122::",
+        "2a06:98c1:3123::",
+        "188.114.99.0",
+        "188.114.98.0"
       ]
     },
     "independent_cache": true
@@ -65,6 +71,7 @@
       "listen_port": 12334,
       "sniff": true,
       "sniff_override_destination": true,
+      "domain_strategy": "prefer_ipv4",
       "set_system_proxy": true
     },
     {
@@ -110,7 +117,8 @@
       ],
       "url": "https://www.google.com/generate_204",
       "interval": "10m0s",
-      "idle_timeout": "1h40m0s"
+      "tolerance": 1,
+      "idle_timeout": "30m0s"
     },
     {
       "type": "wireguard",
@@ -307,8 +315,8 @@
       "tag": "direct-fragment",
       "tls_fragment": {
         "enabled": true,
-        "size": "10-50",
-        "sleep": "1-4"
+        "size": "20-40",
+        "sleep": "2-8"
       }
     },
     {
@@ -332,6 +340,10 @@
           "geoip-phishing"
         ],
         "outbound": "block"
+      },
+      {
+        "domain": ".ir",
+        "outbound": "direct"
       },
       {
         "rule_set": [
@@ -426,7 +438,7 @@
     },
     "clash_api": {
       "external_controller": "127.0.0.1:16756",
-      "secret": "G4CaWIakcTT-sTMA"
+      "secret": "0ZFLEOjgxyjpT7p-"
     }
   }
 }
