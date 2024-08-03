@@ -153,73 +153,67 @@
       ],
       "mtu": 1280
     },
-{
+    {
       "type": "vless",
       "tag": "💦 BPB - IPv4 🇩🇪",
-      "detour": "WARP+4️⃣",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "10-20",
-        "sleep": "0"
-      },
-      "server": "172.66.47.105",
+      "server": "172.66.44.151",
       "server_port": 443,
       "uuid": "a60cbab1-0652-44b2-aa27-cdab033107a3",
       "tls": {
         "enabled": true,
-        "server_name": "Vpn-33X.PaGes.DeV",
-        "alpn": "http/1.1",
-        "min_version": "1.3",
-        "max_version": "1.3",
+        "server_name": "VPN-33X.PaGeS.dEv",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/orzX5MQpbvpYY5IJ/YmVzdHByb3h5Lm9uZWNmLmV1Lm9yZw==",
+        "path": "/1YuylXrlRGsECMZn/YmVzdHByb3h5Lm9uZWNmLmV1Lm9yZw==",
         "headers": {
-          "Host": "vPN-33X.PAgEs.deV"
+          "Host": "VpN-33x.PAGes.deV"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
-{
+    {
       "type": "vless",
       "tag": "💦 BPB - IPv6 🇩🇪",
-      "detour": "WARP+4️⃣",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "10-20",
-        "sleep": "0"
-      },
       "server": "2606:4700:310c::ac42:2c97",
       "server_port": 443,
       "uuid": "a60cbab1-0652-44b2-aa27-cdab033107a3",
       "tls": {
         "enabled": true,
-        "server_name": "Vpn-33X.PaGes.DeV",
-        "alpn": "http/1.1",
-        "min_version": "1.3",
-        "max_version": "1.3",
+        "server_name": "vPn-33x.pAgES.dev",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         }
       },
       "transport": {
         "type": "ws",
         "path": "/ibUhnVut9Tl54eTB/YmVzdHByb3h5Lm9uZWNmLmV1Lm9yZw==",
         "headers": {
-          "Host": "vPN-33X.PAgEs.deV"
+          "Host": "Vpn-33x.PAgEs.Dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Proton 🇳🇱",
+      "detour": "WARP+6️⃣",
+      "local_address": "10.2.0.2/32",
+      "private_key": "yJfb4TDiAq7Kk/tv2fZdZ5b5FvhRt8AqgPLTSImW83o=",
+      "server": "185.107.56.69",
+      "server_port": 51820,
+      "peer_public_key": "WM3qIvkeeD+ouwERuqCVZds82cvh+vsGQPG6ibBGDGA=",
+      "mtu": 1130,
+      "fake_packets": "5-10"
     },
     {
       "type": "wireguard",
