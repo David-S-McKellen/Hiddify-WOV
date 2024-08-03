@@ -8,7 +8,7 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "8.8.8.8",
+        "address": "1.1.1.1",
         "address_resolver": "dns-direct"
       },
       {
@@ -234,9 +234,7 @@
       "private_key": "aM2E4uYh/LmqCf7A1QSZIRTstXPR3TBQG03CnEqHHkc=",
       "server": "149.88.25.129",
       "server_port": 51820,
-      "peer_public_key": "z9XIDCXS950+Q+fQnQG6pFi3B07DxntrT7JrQMLsUWQ=",
-      "mtu": 1130,
-      "fake_packets": "5-10"
+      "peer_public_key": "z9XIDCXS950+Q+fQnQG6pFi3B07DxntrT7JrQMLsUWQ="
     },
     {
       "type": "wireguard",
@@ -247,9 +245,7 @@
       "server": "94.131.115.66",
       "server_port": 15271,
       "peer_public_key": "qIUXq7YcvvNlmd3HFHs/PUOnKWkibHTw7eNlKBC6D2Y=",
-      "pre_shared_key": "3ctue2jDqHOX5Z2bk+kQSF5lklmteeE6KAPmJG4dwj0=",
-      "mtu": 1130,
-      "fake_packets": "5-10"
+      "pre_shared_key": "3ctue2jDqHOX5Z2bk+kQSF5lklmteeE6KAPmJG4dwj0="
     },
     {
       "type": "wireguard",
@@ -260,9 +256,7 @@
       "server": "138.199.47.222",
       "server_port": 65142,
       "peer_public_key": "cmaT8JIehfRf5PWWDkcBRwLWDb3jrIkk/SDbw4JmUAc=",
-      "pre_shared_key": "p9oZWElz4vn74dOqa0+UNIJGxy2/VeBF6b8YIfmVgY0=",
-      "mtu": 1130,
-      "fake_packets": "5-10"
+      "pre_shared_key": "p9oZWElz4vn74dOqa0+UNIJGxy2/VeBF6b8YIfmVgY0="
     },
     {
       "obfs": {
