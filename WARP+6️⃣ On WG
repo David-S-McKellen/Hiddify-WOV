@@ -85,6 +85,7 @@
         "Proton 🇺🇸",
         "keepsolid 🇸🇪",
         "Windscribe 🇫🇷",
+        "🇳🇱 𝐈𝐑𝐂𝐏 | 𝟏\u0026𝟐\n@Ln2Ray § vl+ws+tls+cdn+frag",
         "🇸🇪🟡myH2 on IPv4️⃣"
       ],
       "default": "auto"
@@ -98,6 +99,7 @@
         "Proton 🇺🇸",
         "keepsolid 🇸🇪",
         "Windscribe 🇫🇷",
+        "🇳🇱 𝐈𝐑𝐂𝐏 | 𝟏\u0026𝟐\n@Ln2Ray § vl+ws+tls+cdn+frag",
         "🇸🇪🟡myH2 on IPv4️⃣"
       ],
       "url": "https://www.google.com/generate_204",
@@ -127,6 +129,38 @@
       "fake_packets_mode": "m4"
     },
     {
+      "type": "vless",
+      "tag": "🇳🇱 𝐈𝐑𝐂𝐏 | 𝟏\u0026𝟐\n@Ln2Ray § vl+ws+tls+cdn+frag",
+      "detour": "WARP+6️⃣",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "10-20",
+        "sleep": "0"
+      },
+      "server": "188.114.96.12",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.ircp.online",
+        "alpn": "http/1.1",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@ln2ray",
+        "headers": {
+          "Host": "cdn.ircp.online"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "Proton 🇳🇱",
       "detour": "WARP+6️⃣",
@@ -134,7 +168,9 @@
       "private_key": "yJfb4TDiAq7Kk/tv2fZdZ5b5FvhRt8AqgPLTSImW83o=",
       "server": "185.107.56.69",
       "server_port": 51820,
-      "peer_public_key": "WM3qIvkeeD+ouwERuqCVZds82cvh+vsGQPG6ibBGDGA="
+      "peer_public_key": "WM3qIvkeeD+ouwERuqCVZds82cvh+vsGQPG6ibBGDGA=",
+      "mtu": 1130,
+      "fake_packets": "5-10"
     },
     {
       "type": "wireguard",
@@ -144,7 +180,9 @@
       "private_key": "aM2E4uYh/LmqCf7A1QSZIRTstXPR3TBQG03CnEqHHkc=",
       "server": "149.88.25.129",
       "server_port": 51820,
-      "peer_public_key": "z9XIDCXS950+Q+fQnQG6pFi3B07DxntrT7JrQMLsUWQ="
+      "peer_public_key": "z9XIDCXS950+Q+fQnQG6pFi3B07DxntrT7JrQMLsUWQ=",
+      "mtu": 1130,
+      "fake_packets": "5-10"
     },
     {
       "type": "wireguard",
@@ -156,7 +194,8 @@
       "server_port": 15271,
       "peer_public_key": "qIUXq7YcvvNlmd3HFHs/PUOnKWkibHTw7eNlKBC6D2Y=",
       "pre_shared_key": "3ctue2jDqHOX5Z2bk+kQSF5lklmteeE6KAPmJG4dwj0=",
-      "mtu": 1130
+      "mtu": 1130,
+      "fake_packets": "5-10"
     },
     {
       "type": "wireguard",
@@ -168,7 +207,8 @@
       "server_port": 65142,
       "peer_public_key": "cmaT8JIehfRf5PWWDkcBRwLWDb3jrIkk/SDbw4JmUAc=",
       "pre_shared_key": "p9oZWElz4vn74dOqa0+UNIJGxy2/VeBF6b8YIfmVgY0=",
-      "mtu": 1130
+      "mtu": 1130,
+      "fake_packets": "5-10"
     },
     {
       "obfs": {
