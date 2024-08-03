@@ -8,7 +8,7 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "tcp://9.9.9.9",
+        "address": "https://df7dc211:3sT~Hv5E@d.adguard-dns.com/dns-query",
         "address_resolver": "dns-direct"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "tag": "dns-direct",
-        "address": "149.112.112.112",
+        "address": "94.140.14.49",
         "address_resolver": "dns-local",
         "detour": "direct"
       },
