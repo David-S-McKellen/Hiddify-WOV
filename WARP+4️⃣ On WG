@@ -156,7 +156,7 @@
     {
       "type": "wireguard",
       "tag": "Proton 🇺🇸",
-      "detour": "WARP+4️⃣",
+      "detour": "WARP+4️⃣🇮🇷",
       "local_address": "10.2.0.2/32",
       "private_key": "aM2E4uYh/LmqCf7A1QSZIRTstXPR3TBQG03CnEqHHkc=",
       "server": "149.88.25.129",
@@ -166,7 +166,7 @@
     {
       "type": "wireguard",
       "tag": "keepsolid 🇸🇪",
-      "detour": "WARP+4️⃣",
+      "detour": "WARP+4️⃣🇮🇷",
       "local_address": "10.102.229.92/32",
       "private_key": "YNRzie9iJxPJ4/vyNAg/T99TnsuvED1vqm+DrqnE+lE=",
       "server": "94.131.115.66",
