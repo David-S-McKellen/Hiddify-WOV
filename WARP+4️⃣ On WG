@@ -8,7 +8,7 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "https://df7dc211:3sT~Hv5E@d.adguard-dns.com/dns-query",
+        "address": "https://df7dc211:3sT%7EHv5E@d.adguard-dns.com/dns-query",
         "address_resolver": "dns-direct"
       },
       {
@@ -34,6 +34,10 @@
     ],
     "rules": [
       {
+        "domain": "d.adguard-dns.com",
+        "server": "dns-direct"
+      },
+      {
         "domain": "connectivitycheck.gstatic.com",
         "server": "dns-remote",
         "rewrite_ttl": 3000
@@ -43,7 +47,7 @@
           "geoip-ir",
           "geosite-ir"
         ],
-       "server": "dns-direct"
+        "server": "dns-direct"
       },
       {
         "domain_suffix": ".ir",
@@ -55,10 +59,10 @@
       "sky.rethinkdns.com": [
         "104.17.148.22",
         "104.17.147.22",
-        "2a06:98c1:3122::",
-        "2a06:98c1:3123::",
-        "188.114.99.0",
-        "188.114.98.0"
+        "2a06:98c1:3121::3",
+        "2a06:98c1:3120::3",
+        "188.114.97.3",
+        "188.114.96.3"
       ]
     },
     "independent_cache": true
@@ -71,7 +75,6 @@
       "listen_port": 12334,
       "sniff": true,
       "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv4",
       "set_system_proxy": true
     },
     {
@@ -87,7 +90,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "WARP+4️⃣",
+        "LocalIP § 0",
+        "WarpInWarp § 1"
         "Proton 🇳🇱",
         "Proton 🇺🇸",
         "keepsolid 🇸🇪"
@@ -98,42 +102,51 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "WARP+4️⃣",
+        "LocalIP § 0",
+        "WarpInWarp § 1"
         "Proton 🇳🇱",
         "Proton 🇺🇸",
         "keepsolid 🇸🇪"
       ],
-      "url": "https://www.google.com/generate_204",
+      "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
       "tolerance": 1,
       "idle_timeout": "30m0s"
     },
     {
       "type": "wireguard",
-      "tag": "WARP+4️⃣",
+      "tag": "LocalIP § 0",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8e96:7188:adf7:168e:529/128"
       ],
-      "private_key": "YKXycxjE++fLtDVAlk+JSuQ4f+bdTngipxAl6qN/WEA=",
+      "private_key": "qCrrBAwTYPbOzr/w0IRLZSE1fbGsMocrqcmNNSxsXUY=",
       "server": "188.114.97.132",
-      "server_port": 928,
+      "server_port": 945,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [
-        54,
-        150,
-        167
+      "reserved": "ViJY",
+      "mtu": 1330,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WarpInWarp § 1",
+      "detour": "LocalIP § 0",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8978:945c:8716:e3d2:1783/128"
       ],
-      "mtu": 1280,
-      "fake_packets_mode": "m4",
-         "fake_packets": "40-80",
-         "fake_packets_size": "40-100",
-         "fake_packets_delay": "4-8"
+      "private_key": "yKCJA+/gGEhKeOEMqEwNXgd3O59Shw6DCHhqcN5irEU=",
+      "server": "188.114.97.132",
+      "server_port": 7156,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "xgmL",
+      "mtu": 1280
     },
     {
       "type": "wireguard",
       "tag": "Proton 🇳🇱",
-      "detour": "WARP+4️⃣",
+      "detour": "LocalIP § 0",
       "local_address": "10.2.0.2/32",
       "private_key": "UMseI+FUx6pUYTigy1YnqCvD7rWx4eQP6vGBcnyUPFc=",
       "server": "185.107.56.235",
@@ -143,7 +156,7 @@
     {
       "type": "wireguard",
       "tag": "Proton 🇺🇸",
-      "detour": "WARP+4️⃣",
+      "detour": "LocalIP § 0",
       "local_address": "10.2.0.2/32",
       "private_key": "aM2E4uYh/LmqCf7A1QSZIRTstXPR3TBQG03CnEqHHkc=",
       "server": "149.88.25.129",
@@ -153,7 +166,7 @@
     {
       "type": "wireguard",
       "tag": "keepsolid 🇸🇪",
-      "detour": "WARP+4️⃣",
+      "detour": "LocalIP § 0",
       "local_address": "10.102.229.92/32",
       "private_key": "YNRzie9iJxPJ4/vyNAg/T99TnsuvED1vqm+DrqnE+lE=",
       "server": "94.131.115.66",
@@ -297,7 +310,7 @@
     },
     "clash_api": {
       "external_controller": "127.0.0.1:16756",
-      "secret": "0ZFLEOjgxyjpT7p-"
+      "secret": "UvC7eZftaBrdlDKm"
     }
   }
 }
