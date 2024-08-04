@@ -90,8 +90,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "LocalIP § 0",
-        "WarpInWarp § 1"
+        "WARP+4️⃣🇮🇷",
+        "WOW4️⃣🇩🇪"
         "Proton 🇳🇱",
         "Proton 🇺🇸",
         "keepsolid 🇸🇪"
@@ -102,8 +102,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "LocalIP § 0",
-        "WarpInWarp § 1"
+        "WARP+4️⃣🇮🇷",
+        "WOW4️⃣🇩🇪"
         "Proton 🇳🇱",
         "Proton 🇺🇸",
         "keepsolid 🇸🇪"
@@ -115,7 +115,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "LocalIP § 0",
+      "tag": "WARP+4️⃣🇮🇷",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8e96:7188:adf7:168e:529/128"
@@ -130,8 +130,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "WarpInWarp § 1",
-      "detour": "LocalIP § 0",
+      "tag": "WOW4️⃣🇩🇪",
+      "detour": "WARP+4️⃣🇮🇷",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8978:945c:8716:e3d2:1783/128"
@@ -146,7 +146,7 @@
     {
       "type": "wireguard",
       "tag": "Proton 🇳🇱",
-      "detour": "WARP+4️⃣",
+      "detour": "WARP+4️⃣🇮🇷",
       "local_address": "10.2.0.2/32",
       "private_key": "UMseI+FUx6pUYTigy1YnqCvD7rWx4eQP6vGBcnyUPFc=",
       "server": "185.107.56.235",
