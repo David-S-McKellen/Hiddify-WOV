@@ -8,7 +8,7 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "udp://76.76.2.2",
+        "address": "udp://208.67.222.222",
         "address_resolver": "dns-direct"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "tag": "dns-direct",
-        "address": "76.76.10.2",
+        "address": "tcp://208.67.220.220",
         "address_resolver": "dns-local",
         "detour": "direct"
       },
