@@ -126,11 +126,15 @@
         "172.16.0.2/24",
         "2606:4700:110:8e96:7188:adf7:168e:529/128"
       ],
-      "private_key": "qCrrBAwTYPbOzr/w0IRLZSE1fbGsMocrqcmNNSxsXUY=",
+      "private_key": "YKXycxjE++fLtDVAlk+JSuQ4f+bdTngipxAl6qN/WEA=",
       "server": "188.114.97.132",
       "server_port": 945,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "ViJY",
+      "reserved": [
+        54,
+        150,
+        167
+      ],
       "mtu": 1330,
       "fake_packets_mode": "m4"
     },
@@ -148,6 +152,31 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "xgmL",
       "mtu": 1280
+    },
+    {
+      "type": "vless",
+      "tag": "Vless UK 🇬🇧",
+      "detour": "WARP+4️⃣🇮🇷",
+      "server": "198.244.190.189",
+      "server_port": 443,
+      "uuid": "89385b4f-8203-4cf0-8a60-658c80ebd4ac",
+      "tls": {
+        "enabled": true,
+        "server_name": "uk-full.privateip.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/VLESS",
+        "headers": {
+          "Host": "uk-full.privateip.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "wireguard",
