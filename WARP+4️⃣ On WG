@@ -205,6 +205,31 @@
       "tag": "hysteria2 🇸🇪"
     },
     {
+      "type": "hysteria2",
+      "tag": "Kevin H2 🇺🇸",
+      "detour": "WARP+4️⃣🇮🇷",
+      "server": "38.175.197.118",
+      "server_port": 44800,
+      "obfs": {
+        "type": "salamander",
+        "password": "iVPN.Pro-Sheida-Khj%56GFdt%t6$d"
+      },
+      "password": "DjXjf4Y9aS",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "ech": {
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "ADn+DQA1AAAgACAAZB9u7FNS4y/luu+Gf/euB4b7qp5tXAFoc56rG/8IOwAIAAEA",
+            "AQABAAMAAicnAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
+
+    {
       "type": "wireguard",
       "tag": "Proton 🇳🇱",
       "detour": "WARP+4️⃣🇮🇷",
