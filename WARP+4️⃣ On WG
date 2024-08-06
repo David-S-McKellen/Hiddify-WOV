@@ -95,7 +95,8 @@
         "Vless 🇳🇱",
         "Proton 🇳🇱",
         "Proton 🇺🇸",
-        "keepsolid 🇺🇸",
+        "keepsolid 🇮🇪",
+        "Kevin H2 🇺🇸",
         "hysteria2 🇸🇪"
       ],
       "default": "auto"
@@ -109,7 +110,8 @@
         "Vless 🇳🇱",
         "Proton 🇳🇱",
         "Proton 🇺🇸",
-        "keepsolid 🇺🇸",
+        "keepsolid 🇮🇪",
+        "Kevin H2 🇺🇸",
         "hysteria2 🇸🇪"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
@@ -174,14 +176,14 @@
     },
     {
       "type": "wireguard",
-      "tag": "keepsolid 🇺🇸",
+      "tag": "keepsolid 🇮🇪",
       "detour": "WARP+4️⃣🇮🇷",
-      "local_address": "10.103.201.140/32",
-      "private_key": "+PEBr+a8PDvmpZb54UJxHYdQo17EIktodOP1bTNt6k4=",
+      "local_address": "10.103.215.40/32",
+      "private_key": "6PiwdrWapehuSwiTsfOPUjWWREDlIAHg0ogpqaFyYnU=",
       "server": "108.181.57.249",
       "server_port": 15295,
-      "peer_public_key": "n3xwwgFXK8Dc7zXsjAQcGyZQNtWU/yHBpoYd42GGWhw=",
-      "pre_shared_key": "ii/0knZa9OrsFkFjMKMfPLn7aVHKsxO+eVG1gnVeyjs="
+      "peer_public_key": "mV3/z1NMLBwGv4D/876mPAMCA07GsoAiWUKCGEXsCGU=",
+      "pre_shared_key": "GMPlzUDU+NuC+u5Z2QxHfjnPaAy4/1Y9DnoDGLjzaOg="
     },
     {
       "obfs": {
