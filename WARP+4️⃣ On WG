@@ -95,7 +95,7 @@
         "Vless 🇳🇱",
         "Proton 🇳🇱",
         "Proton 🇺🇸",
-        "keepsolid 🇮🇪",
+        "keepsolid 🇱🇺",
         "Kevin H2 🇺🇸",
         "hysteria2 🇸🇪"
       ],
@@ -110,7 +110,7 @@
         "Vless 🇳🇱",
         "Proton 🇳🇱",
         "Proton 🇺🇸",
-        "keepsolid 🇮🇪",
+        "keepsolid 🇱🇺",
         "Kevin H2 🇺🇸",
         "hysteria2 🇸🇪"
       ],
@@ -176,14 +176,14 @@
     },
     {
       "type": "wireguard",
-      "tag": "keepsolid 🇮🇪",
-      "detour": "WOW4️⃣🇩🇪",
-      "local_address": "10.103.215.40/32",
-      "private_key": "6PiwdrWapehuSwiTsfOPUjWWREDlIAHg0ogpqaFyYnU=",
-      "server": "194.4.51.234",
-      "server_port": 15293,
-      "peer_public_key": "mV3/z1NMLBwGv4D/876mPAMCA07GsoAiWUKCGEXsCGU=",
-      "pre_shared_key": "GMPlzUDU+NuC+u5Z2QxHfjnPaAy4/1Y9DnoDGLjzaOg="
+      "tag": "keepsolid 🇱🇺",
+      "detour": "WARP+4️⃣🇮🇷",
+      "local_address": "10.103.4.118/32",
+      "private_key": "+PPSAZD0qLJ1ZKFJUtfGa+JO3YFZsqjDD3+ExMkNvU0=",
+      "server": "185.105.3.86",
+      "server_port": 256,
+      "peer_public_key": "1OMiPeZszkb2MyR5bVf9USuzarUT6oPI11Wg2UHNaGU=",
+      "pre_shared_key": "mu7nv3+bsn4bnowLobbGektEcozatGYFCc4Wxw48eeM="
     },
     {
       "obfs": {
