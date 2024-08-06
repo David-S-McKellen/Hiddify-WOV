@@ -92,11 +92,8 @@
         "auto",
         "WARP+4️⃣🇮🇷",
         "WOW4️⃣🇩🇪",
-        "Vless 🇳🇱",
         "Proton 🇳🇱",
-        "Proton 🇺🇸",
-        "Kevin H2 🇺🇸",
-        "hysteria2 🇸🇪"
+        "Proton 🇺🇸"
       ],
       "default": "auto"
     },
@@ -106,11 +103,8 @@
       "outbounds": [
         "WARP+4️⃣🇮🇷",
         "WOW4️⃣🇩🇪",
-        "Vless 🇳🇱",
         "Proton 🇳🇱",
-        "Proton 🇺🇸",
-        "Kevin H2 🇺🇸",
-        "hysteria2 🇸🇪"
+        "Proton 🇺🇸"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -148,77 +142,6 @@
       "mtu": 1280
     },
     {
-      "type": "vless",
-      "tag": "Vless UK 🇬🇧",
-      "detour": "WARP+4️⃣🇮🇷",
-      "server": "198.244.190.189",
-      "server_port": 443,
-      "uuid": "89385b4f-8203-4cf0-8a60-658c80ebd4ac",
-      "tls": {
-        "enabled": true,
-        "server_name": "uk-full.privateip.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/VLESS",
-        "headers": {
-          "Host": "uk-full.privateip.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "obfs": {
-        "password": "4ff648165e163025",
-        "type": "salamander"
-      },
-      "password": "234454ef8c3beddc",
-      "server": "193.188.20.199",
-      "server_port": 443,
-      "tls": {
-        "alpn": [
-          "h3"
-        ],
-        "enabled": true,
-        "insecure": true,
-        "server_name": "www.google.com"
-      },
-      "type": "hysteria2",
-      "domain_strategy": "",
-      "detour": "WARP+4️⃣🇮🇷",
-      "tag": "hysteria2 🇸🇪"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "Kevin H2 🇺🇸",
-      "detour": "WARP+4️⃣🇮🇷",
-      "server": "38.175.197.118",
-      "server_port": 44800,
-      "obfs": {
-        "type": "salamander",
-        "password": "iVPN.Pro-Sheida-Khj%56GFdt%t6$d"
-      },
-      "password": "DjXjf4Y9aS",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "ech": {
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "ADn+DQA1AAAgACAAZB9u7FNS4y/luu+Gf/euB4b7qp5tXAFoc56rG/8IOwAIAAEA",
-            "AQABAAMAAicnAAA=",
-            "-----END ECH CONFIGS-----"
-          ]
-        }
-      }
-    },
-
-    {
       "type": "wireguard",
       "tag": "Proton 🇳🇱",
       "detour": "WARP+4️⃣🇮🇷",
@@ -237,38 +160,6 @@
       "server": "149.88.25.129",
       "server_port": 51820,
       "peer_public_key": "z9XIDCXS950+Q+fQnQG6pFi3B07DxntrT7JrQMLsUWQ="
-    },
-    {
-      "type": "vless",
-      "tag": "Vless 🇳🇱",
-      "detour": "WARP+4️⃣🇮🇷",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "10-20",
-        "sleep": "0"
-      },
-      "server": "188.114.96.12",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.ircp.online",
-        "alpn": "http/1.1",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@ln2ray",
-        "headers": {
-          "Host": "cdn.ircp.online"
-        }
-      },
-      "packet_encoding": "xudp"
     },
     {
       "type": "dns",
