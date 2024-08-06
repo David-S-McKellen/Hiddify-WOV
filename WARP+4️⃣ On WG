@@ -124,15 +124,11 @@
         "172.16.0.2/24",
         "2606:4700:110:8e96:7188:adf7:168e:529/128"
       ],
-      "private_key": "YKXycxjE++fLtDVAlk+JSuQ4f+bdTngipxAl6qN/WEA=",
+      "private_key": "qCrrBAwTYPbOzr/w0IRLZSE1fbGsMocrqcmNNSxsXUY=",
       "server": "188.114.97.132",
-      "server_port": 945,
+      "server_port": 3581,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [
-        54,
-        150,
-        167
-      ],
+      "reserved": "ViJY",
       "mtu": 1330,
       "fake_packets_mode": "m4"
     },
@@ -146,7 +142,7 @@
       ],
       "private_key": "yKCJA+/gGEhKeOEMqEwNXgd3O59Shw6DCHhqcN5irEU=",
       "server": "188.114.97.132",
-      "server_port": 7156,
+      "server_port": 3581,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "xgmL",
       "mtu": 1280
