@@ -8,7 +8,7 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "https://df7dc211:3sT~Hv5E@d.adguard-dns.com/dns-query",
+        "address": "udp://208.67.222.222",
         "address_resolver": "dns-direct"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "tag": "dns-direct",
-        "address": "94.140.14.49",
+        "address": "tcp://208.67.220.220",
         "address_resolver": "dns-local",
         "detour": "direct"
       },
@@ -34,7 +34,11 @@
     ],
     "rules": [
       {
-        "domain": "cp.cloudflare.com",
+        "domain": "d.adguard-dns.com",
+        "server": "dns-direct"
+      },
+      {
+        "domain": "connectivitycheck.gstatic.com",
         "server": "dns-remote",
         "rewrite_ttl": 3000
       },
@@ -44,13 +48,19 @@
           "geosite-ir"
         ],
         "server": "dns-direct"
+      },
+      {
+        "domain_suffix": ".ir",
+        "server": "dns-direct"
       }
     ],
     "final": "dns-remote",
     "static_ips": {
       "sky.rethinkdns.com": [
-        "104.17.147.22",
         "104.17.148.22",
+        "104.17.147.22",
+        "2a06:98c1:3121::3",
+        "2a06:98c1:3120::3",
         "188.114.97.3",
         "188.114.96.3"
       ]
@@ -80,11 +90,13 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "WARP+6️⃣",
+        "WARP+6️⃣🇮🇷",
+        "WOW4️⃣🇩🇪",
+        "Vless 🇳🇱",
         "Proton 🇳🇱",
         "Proton 🇺🇸",
-        "keepsolid 🇸🇪",
-        "🇳🇱 𝐈𝐑𝐂𝐏 | 𝟏\u0026𝟐\n@Ln2Ray § vl+ws+tls+cdn+frag"
+        "Kevin H2 🇺🇸",
+        "hysteria2 🇸🇪"
       ],
       "default": "auto"
     },
@@ -92,38 +104,144 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "WARP+6️⃣",
+        "WARP+6️⃣🇮🇷",
+        "WOW4️⃣🇩🇪",
+        "Vless 🇳🇱",
         "Proton 🇳🇱",
         "Proton 🇺🇸",
-        "keepsolid 🇸🇪",
-        "🇳🇱 𝐈𝐑𝐂𝐏 | 𝟏\u0026𝟐\n@Ln2Ray § vl+ws+tls+cdn+frag"
+        "Kevin H2 🇺🇸",
+        "hysteria2 🇸🇪"
       ],
-      "url": "https://www.google.com/generate_204",
+      "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
-      "idle_timeout": "1h40m0s"
+      "tolerance": 1,
+      "idle_timeout": "30m0s"
     },
     {
       "type": "wireguard",
-      "tag": "WARP+6️⃣",
+      "tag": "WARP+6️⃣🇮🇷",
       "local_address": [
         "172.16.0.2/24",
-        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
+        "2606:4700:110:8e96:7188:adf7:168e:529/128"
       ],
-      "private_key": "YKXycxjE++fLtDVAlk+JSuQ4f+bdTngipxAl6qN/WEA=",
-      "server": "[2606:4700:d1::8ea9:254e:d6bf]",
-      "server_port": 8886,
+      "private_key": "qCrrBAwTYPbOzr/w0IRLZSE1fbGsMocrqcmNNSxsXUY=",
+      "server": "[2606:4700:d1::b4cb:824a:9dd8]",
+      "server_port": 939,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [
-        54,
-        150,
-        167
+      "reserved": "ViJY",
+      "mtu": 1330,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WOW4️⃣🇩🇪",
+      "detour": "WARP+6️⃣🇮🇷",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8978:945c:8716:e3d2:1783/128"
       ],
+      "private_key": "yKCJA+/gGEhKeOEMqEwNXgd3O59Shw6DCHhqcN5irEU=",
+      "server": "188.114.97.132",
+      "server_port": 3581,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "xgmL",
       "mtu": 1280
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 𝐈𝐑𝐂𝐏 | 𝟏\u0026𝟐\n@Ln2Ray § vl+ws+tls+cdn+frag",
-      "detour": "WARP+6️⃣",
+      "tag": "Vless UK 🇬🇧",
+      "detour": "WARP+6️⃣🇮🇷",
+      "server": "198.244.190.189",
+      "server_port": 443,
+      "uuid": "89385b4f-8203-4cf0-8a60-658c80ebd4ac",
+      "tls": {
+        "enabled": true,
+        "server_name": "uk-full.privateip.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/VLESS",
+        "headers": {
+          "Host": "uk-full.privateip.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "obfs": {
+        "password": "4ff648165e163025",
+        "type": "salamander"
+      },
+      "password": "234454ef8c3beddc",
+      "server": "193.188.20.199",
+      "server_port": 443,
+      "tls": {
+        "alpn": [
+          "h3"
+        ],
+        "enabled": true,
+        "insecure": true,
+        "server_name": "www.google.com"
+      },
+      "type": "hysteria2",
+      "domain_strategy": "",
+      "detour": "WARP+6️⃣🇮🇷",
+      "tag": "hysteria2 🇸🇪"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "Kevin H2 🇺🇸",
+      "detour": "WARP+6️⃣🇮🇷",
+      "server": "38.175.197.118",
+      "server_port": 44800,
+      "obfs": {
+        "type": "salamander",
+        "password": "iVPN.Pro-Sheida-Khj%56GFdt%t6$d"
+      },
+      "password": "DjXjf4Y9aS",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "ech": {
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "ADn+DQA1AAAgACAAZB9u7FNS4y/luu+Gf/euB4b7qp5tXAFoc56rG/8IOwAIAAEA",
+            "AQABAAMAAicnAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
+
+    {
+      "type": "wireguard",
+      "tag": "Proton 🇳🇱",
+      "detour": "WARP+6️⃣🇮🇷",
+      "local_address": "10.2.0.2/32",
+      "private_key": "UMseI+FUx6pUYTigy1YnqCvD7rWx4eQP6vGBcnyUPFc=",
+      "server": "185.107.56.235",
+      "server_port": 51820,
+      "peer_public_key": "ocCFVEDN+6fTFKg96mQ6fW+oBTTZ9gW6xEk8gxTiR1E="
+    },
+    {
+      "type": "wireguard",
+      "tag": "Proton 🇺🇸",
+      "detour": "WARP+6️⃣🇮🇷",
+      "local_address": "10.2.0.2/32",
+      "private_key": "aM2E4uYh/LmqCf7A1QSZIRTstXPR3TBQG03CnEqHHkc=",
+      "server": "149.88.25.129",
+      "server_port": 51820,
+      "peer_public_key": "z9XIDCXS950+Q+fQnQG6pFi3B07DxntrT7JrQMLsUWQ="
+    },
+    {
+      "type": "vless",
+      "tag": "Vless 🇳🇱",
+      "detour": "WARP+6️⃣🇮🇷",
       "tls_fragment": {
         "enabled": true,
         "size": "10-20",
@@ -153,37 +271,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "wireguard",
-      "tag": "Proton 🇳🇱",
-      "detour": "WARP+6️⃣",
-      "local_address": "10.2.0.2/32",
-      "private_key": "yJfb4TDiAq7Kk/tv2fZdZ5b5FvhRt8AqgPLTSImW83o=",
-      "server": "185.107.56.69",
-      "server_port": 51820,
-      "peer_public_key": "WM3qIvkeeD+ouwERuqCVZds82cvh+vsGQPG6ibBGDGA="
-    },
-    {
-      "type": "wireguard",
-      "tag": "Proton 🇺🇸",
-      "detour": "WARP+6️⃣",
-      "local_address": "10.2.0.2/32",
-      "private_key": "aM2E4uYh/LmqCf7A1QSZIRTstXPR3TBQG03CnEqHHkc=",
-      "server": "149.88.25.129",
-      "server_port": 51820,
-      "peer_public_key": "z9XIDCXS950+Q+fQnQG6pFi3B07DxntrT7JrQMLsUWQ="
-    },
-    {
-      "type": "wireguard",
-      "tag": "keepsolid 🇸🇪",
-      "detour": "WARP+6️⃣",
-      "local_address": "10.102.229.92/32",
-      "private_key": "YNRzie9iJxPJ4/vyNAg/T99TnsuvED1vqm+DrqnE+lE=",
-      "server": "94.131.115.66",
-      "server_port": 15271,
-      "peer_public_key": "qIUXq7YcvvNlmd3HFHs/PUOnKWkibHTw7eNlKBC6D2Y=",
-      "pre_shared_key": "3ctue2jDqHOX5Z2bk+kQSF5lklmteeE6KAPmJG4dwj0="
-    },
-    {
       "type": "dns",
       "tag": "dns-out"
     },
@@ -196,8 +283,8 @@
       "tag": "direct-fragment",
       "tls_fragment": {
         "enabled": true,
-        "size": "10-50",
-        "sleep": "1-4"
+        "size": "20-40",
+        "sleep": "2-8"
       }
     },
     {
@@ -221,6 +308,10 @@
           "geoip-phishing"
         ],
         "outbound": "block"
+      },
+      {
+        "domain": ".ir",
+        "outbound": "direct"
       },
       {
         "rule_set": [
@@ -315,7 +406,7 @@
     },
     "clash_api": {
       "external_controller": "127.0.0.1:16756",
-      "secret": "G4CaWIakcTT-sTMA"
+      "secret": "UvC7eZftaBrdlDKm"
     }
   }
 }
