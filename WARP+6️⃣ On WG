@@ -116,15 +116,18 @@
       "tag": "WARP+6️⃣🇮🇷",
       "local_address": [
         "172.16.0.2/24",
-        "2606:4700:110:8e96:7188:adf7:168e:529/128"
+        "2606:4700:110:8a84:4e32:abc4:b690:e50f/128"
       ],
-      "private_key": "qCrrBAwTYPbOzr/w0IRLZSE1fbGsMocrqcmNNSxsXUY=",
-      "server": "2606:4700:d1::b4cb:824a:9dd8",
-      "server_port": 939,
+      "private_key": "CFxaovhYMNq6Cg3kdMGzmysWqDZyOL4zVV/qX8St5HM=",
+      "server": "2606:4700:d0::2ed3:403d:733d:bebb",
+      "server_port": 8854,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "ViJY",
+      "reserved": "3DIi",
       "mtu": 1330,
-      "fake_packets_mode": "m4"
+      "fake_packets": "1-2",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m3"
     },
     {
       "type": "wireguard",
