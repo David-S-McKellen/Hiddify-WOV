@@ -92,8 +92,9 @@
         "auto",
         "WARP+4️⃣🇮🇷",
         "WOW4️⃣🇩🇪",
-        "Proton 🇳🇱",
-        "Proton 🇺🇸"
+        "Amsterdam,The Netherlands 🇳🇱",
+        "Chicago,Illinois 🇺🇸",
+        "New York,NY 🇺🇸"
       ],
       "default": "auto"
     },
@@ -103,8 +104,9 @@
       "outbounds": [
         "WARP+4️⃣🇮🇷",
         "WOW4️⃣🇩🇪",
-        "Proton 🇳🇱",
-        "Proton 🇺🇸"
+        "Amsterdam,The Netherlands 🇳🇱",
+        "Chicago,Illinois 🇺🇸",
+        "New York,NY 🇺🇸"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -146,7 +148,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "Proton 🇳🇱",
+      "tag": "Amsterdam,The Netherlands 🇳🇱",
       "detour": "WARP+4️⃣🇮🇷",
       "local_address": "10.2.0.2/32",
       "private_key": "UMseI+FUx6pUYTigy1YnqCvD7rWx4eQP6vGBcnyUPFc=",
@@ -156,13 +158,24 @@
     },
     {
       "type": "wireguard",
-      "tag": "Proton 🇺🇸",
+      "tag": "Chicago,Illinois 🇺🇸",
       "detour": "WARP+4️⃣🇮🇷",
       "local_address": "10.2.0.2/32",
       "private_key": "aM2E4uYh/LmqCf7A1QSZIRTstXPR3TBQG03CnEqHHkc=",
       "server": "149.88.25.129",
       "server_port": 80,
       "peer_public_key": "z9XIDCXS950+Q+fQnQG6pFi3B07DxntrT7JrQMLsUWQ="
+    },
+{
+      "type": "wireguard",
+      "tag": "New York,NY 🇺🇸",
+      "detour": "WARP+4️⃣🇮🇷",
+      "local_address": "10.2.0.2/32",
+      "dns": "10.2.0.1",
+      "private_key": "GBCmLJvoSDI8yp/QXbcW/YtiV3JO60xwmQegbJQV3GI=",
+      "server": "143.244.44.161",
+      "server_port": 80,
+      "peer_public_key": "sgXKq3ncrJkv/iqpI5MsPGVVvQ4ZnKNrS0SW8lrstQo="
     },
     {
       "type": "dns",
