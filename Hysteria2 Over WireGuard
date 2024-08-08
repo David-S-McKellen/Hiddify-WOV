@@ -200,7 +200,7 @@
       "server_port": 60100,
       "peer_public_key": "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk="
     },
-{
+    {
       "type": "wireguard",
       "tag": "New York,NY 🇺🇸",
       "detour": "🇸🇪H2",
