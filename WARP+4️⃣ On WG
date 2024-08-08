@@ -143,10 +143,10 @@
       "tag": "Amsterdam,The Netherlands 🇳🇱",
       "detour": "WARP+4️⃣🇮🇷",
       "local_address": "10.2.0.2/32",
-      "private_key": "IJiRnyZzkXPOQodpRX9ZSMN3KMo6eW8KYYjRaYnFvUU=",
-      "server": "149.34.244.179",
+      "private_key": "QMkFWThbS49mjQ6lgOYtI8YdqkQ+TCxgFuLfNWYo9VU=",
+      "server": "185.107.56.69",
       "server_port": 51820,
-      "peer_public_key": "dldo97jXTUvjEQqaAx3pHy4lKFSxcmZYDCGFvvDOIGQ="
+      "peer_public_key": "WM3qIvkeeD+ouwERuqCVZds82cvh+vsGQPG6ibBGDGA="
     },
     {
       "type": "dns",
