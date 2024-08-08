@@ -91,6 +91,7 @@
       "outbounds": [
         "auto",
         "🇳🇱 𝐈𝐑𝐂𝐏 ",
+        "🇸🇪H2",
         "Amsterdam,The Netherlands 🇳🇱",
         "Chicago,Illinois 🇺🇸",
         "New York,NY 🇺🇸"
@@ -102,6 +103,7 @@
       "tag": "auto",
       "outbounds": [
         "🇳🇱 𝐈𝐑𝐂𝐏 ",
+        "🇸🇪H2",
         "Amsterdam,The Netherlands 🇳🇱",
         "Chicago,Illinois 🇺🇸",
         "New York,NY 🇺🇸"
@@ -111,6 +113,41 @@
       "tolerance": 1,
       "idle_timeout": "30m0s"
     },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪H2",
+      "server": "193.188.20.199",
+      "server_port": 443,
+      "obfs": {
+        "type": "salamander",
+        "password": "4ff648165e163025"
+      },
+      "password": "234454ef8c3beddc",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "direct",
+      "tag": "direct-fragment",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "10-50",
+        "sleep": "1-4"
+      }
+    },
+
     {
       "type": "vless",
       "tag": "🇳🇱 𝐈𝐑𝐂𝐏 ",
@@ -145,7 +182,7 @@
     {
       "type": "wireguard",
       "tag": "Amsterdam,The Netherlands 🇳🇱",
-      "detour": "🇳🇱 𝐈𝐑𝐂𝐏 ",
+      "detour": "🇸🇪H2",
       "local_address": "10.2.0.2/32",
       "private_key": "UMseI+FUx6pUYTigy1YnqCvD7rWx4eQP6vGBcnyUPFc=",
       "server": "185.107.56.235",
@@ -155,7 +192,7 @@
     {
       "type": "wireguard",
       "tag": "Chicago,Illinois 🇺🇸",
-      "detour": "🇳🇱 𝐈𝐑𝐂𝐏 ",
+      "detour": "🇸🇪H2",
       "local_address": "10.2.0.2/32",
       "private_key": "aM2E4uYh/LmqCf7A1QSZIRTstXPR3TBQG03CnEqHHkc=",
       "server": "149.88.25.129",
@@ -165,7 +202,7 @@
 {
       "type": "wireguard",
       "tag": "New York,NY 🇺🇸",
-      "detour": "🇳🇱 𝐈𝐑𝐂𝐏 ",
+      "detour": "🇸🇪H2",
       "local_address": "10.2.0.2/32",
       "private_key": "GBCmLJvoSDI8yp/QXbcW/YtiV3JO60xwmQegbJQV3GI=",
       "server": "143.244.44.161",
