@@ -161,10 +161,10 @@
       "tag": "Chicago,Illinois 🇺🇸",
       "detour": "WARP+6️⃣🇮🇷",
       "local_address": "10.2.0.2/32",
-      "private_key": "aM2E4uYh/LmqCf7A1QSZIRTstXPR3TBQG03CnEqHHkc=",
-      "server": "149.88.25.129",
+      "private_key": "mGfJx5c7Qkdu2T/E/xLBFQfZiHGMp72HRT/BlzO1cXM=",
+      "server": "89.187.180.55",
       "server_port": 51820,
-      "peer_public_key": "z9XIDCXS950+Q+fQnQG6pFi3B07DxntrT7JrQMLsUWQ="
+      "peer_public_key": "yB6ySO0kjqbgVWanDYKDgWoAMwM3X//nBiKXwaqmiwU="
     },
 {
       "type": "wireguard",
