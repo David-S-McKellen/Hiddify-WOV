@@ -126,10 +126,10 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "ViJY",
       "mtu": 1316,
-      "fake_packets": "20-35",
-      "fake_packets_size": "5-35",
-      "fake_packets_delay": "5-35",
-      "fake_packets_mode": "m3"
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8",
+      "fake_packets_mode": "m4"
     },
     {
       "type": "wireguard",
