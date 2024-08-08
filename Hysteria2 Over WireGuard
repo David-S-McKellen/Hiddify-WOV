@@ -90,7 +90,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇱 𝐈𝐑𝐂𝐏 ",
+        "Vless 🇩🇪 ",
         "🇸🇪H2",
         "Amsterdam,The Netherlands 🇳🇱",
         "Chicago,Illinois 🇺🇸",
@@ -102,7 +102,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇱 𝐈𝐑𝐂𝐏 ",
+        "Vless 🇩🇪 ",
         "🇸🇪H2",
         "Amsterdam,The Netherlands 🇳🇱",
         "Chicago,Illinois 🇺🇸",
@@ -151,7 +151,7 @@
     {
       "type": "vless",
       "detour": "🇸🇪H2",
-      "tag": "🇳🇱 𝐈𝐑𝐂𝐏 ",
+      "tag": "Vless 🇩🇪 ",
       "tls_fragment": {
         "enabled": true,
         "size": "10-20",
