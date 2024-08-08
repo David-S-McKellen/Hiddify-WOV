@@ -150,6 +150,7 @@
 
     {
       "type": "vless",
+      "detour": "🇸🇪H2",
       "tag": "🇳🇱 𝐈𝐑𝐂𝐏 ",
       "tls_fragment": {
         "enabled": true,
