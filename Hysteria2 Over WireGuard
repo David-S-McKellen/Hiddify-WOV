@@ -93,7 +93,7 @@
         "Vless 🇩🇪 ",
         "🇸🇪H2",
         "Amsterdam,The Netherlands 🇳🇱",
-        "Chicago,Illinois 🇺🇸",
+        "Ashburn,Virginia 🇺🇸",
         "New York,NY 🇺🇸"
       ],
       "default": "auto"
@@ -105,7 +105,7 @@
         "Vless 🇩🇪 ",
         "🇸🇪H2",
         "Amsterdam,The Netherlands 🇳🇱",
-        "Chicago,Illinois 🇺🇸",
+        "Ashburn,Virginia 🇺🇸",
         "New York,NY 🇺🇸"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
@@ -192,13 +192,14 @@
     },
     {
       "type": "wireguard",
-      "tag": "Chicago,Illinois 🇺🇸",
+      "tag": "Ashburn,Virginia 🇺🇸",
       "detour": "🇸🇪H2",
-      "local_address": "10.2.0.2/32",
-      "private_key": "aM2E4uYh/LmqCf7A1QSZIRTstXPR3TBQG03CnEqHHkc=",
-      "server": "149.88.25.129",
-      "server_port": 51820,
-      "peer_public_key": "z9XIDCXS950+Q+fQnQG6pFi3B07DxntrT7JrQMLsUWQ="
+      "local_address": "10.103.223.26/32",
+      "private_key": "ED6qsnNT7Vvz7thmqgqWse9hzS1N2Ng0SUTXd1P3OUc=",
+      "server": "108.181.132.193",
+      "server_port": 251,
+      "pre_shared_key": "cI1s7sbyUITTZomRKzm3EsH/zoXRKEpnq31UtLEwhR0=",
+      "peer_public_key": "QS0Amv63Zjixw/BvTCRmVhGNnr94Pmo1+ungUOMqUDQ="
     },
 {
       "type": "wireguard",
