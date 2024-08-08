@@ -92,9 +92,7 @@
         "auto",
         "WARP+4️⃣🇮🇷",
         "WOW4️⃣🇩🇪",
-        "Amsterdam,The Netherlands 🇳🇱",
-        "Chicago,Illinois 🇺🇸",
-        "New York,NY 🇺🇸"
+        "Amsterdam,The Netherlands 🇳🇱"
       ],
       "default": "auto"
     },
@@ -104,9 +102,7 @@
       "outbounds": [
         "WARP+4️⃣🇮🇷",
         "WOW4️⃣🇩🇪",
-        "Amsterdam,The Netherlands 🇳🇱",
-        "Chicago,Illinois 🇺🇸",
-        "New York,NY 🇺🇸"
+        "Amsterdam,The Netherlands 🇳🇱"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -121,11 +117,11 @@
         "2606:4700:110:8e96:7188:adf7:168e:529/128"
       ],
       "private_key": "qCrrBAwTYPbOzr/w0IRLZSE1fbGsMocrqcmNNSxsXUY=",
-      "server": "188.114.98.79",
-      "server_port": 7559,
+      "server": "162.159.192.139",
+      "server_port": 946,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "ViJY",
-      "mtu": 1316,
+      "mtu": 1280,
       "fake_packets": "40-80",
       "fake_packets_size": "40-100",
       "fake_packets_delay": "4-8",
@@ -140,8 +136,8 @@
         "2606:4700:110:8978:945c:8716:e3d2:1783/128"
       ],
       "private_key": "yKCJA+/gGEhKeOEMqEwNXgd3O59Shw6DCHhqcN5irEU=",
-      "server": "188.114.96.134",
-      "server_port": 988,
+      "server": "162.159.192.139",
+      "server_port": 946,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "xgmL",
       "mtu": 1280
@@ -155,26 +151,6 @@
       "server": "149.34.244.179",
       "server_port": 51820,
       "peer_public_key": "dldo97jXTUvjEQqaAx3pHy4lKFSxcmZYDCGFvvDOIGQ="
-    },
-    {
-      "type": "wireguard",
-      "tag": "Chicago,Illinois 🇺🇸",
-      "detour": "WARP+4️⃣🇮🇷",
-      "local_address": "10.2.0.2/32",
-      "private_key": "mGfJx5c7Qkdu2T/E/xLBFQfZiHGMp72HRT/BlzO1cXM=",
-      "server": "89.187.180.55",
-      "server_port": 51820,
-      "peer_public_key": "yB6ySO0kjqbgVWanDYKDgWoAMwM3X//nBiKXwaqmiwU="
-    },
-{
-      "type": "wireguard",
-      "tag": "New York,NY 🇺🇸",
-      "detour": "WARP+4️⃣🇮🇷",
-      "local_address": "10.2.0.2/32",
-      "private_key": "GBCmLJvoSDI8yp/QXbcW/YtiV3JO60xwmQegbJQV3GI=",
-      "server": "143.244.44.161",
-      "server_port": 51820,
-      "peer_public_key": "sgXKq3ncrJkv/iqpI5MsPGVVvQ4ZnKNrS0SW8lrstQo="
     },
     {
       "type": "dns",
