@@ -198,7 +198,7 @@
       "private_key": "4NMyzSD/4t5zT6exVIjgvyOwopaoMTkL1YxmkTpseVM=",
       "server": "82.102.26.226",
       "server_port": 60100,
-      "peer_public_key": "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk=",
+      "peer_public_key": "PCHW67+lEKBQI+qRFaRptHN+RrUBIXYZ/v2Xhi+CoRk="
     },
 {
       "type": "wireguard",
