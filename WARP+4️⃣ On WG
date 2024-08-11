@@ -154,7 +154,7 @@
       "server_port": 5060,
       "peer_public_key": "WM3qIvkeeD+ouwERuqCVZds82cvh+vsGQPG6ibBGDGA="
     },
-{
+    {
       "type": "wireguard",
       "tag": "New York,New York 🇺🇸",
       "detour": "WARP+4️⃣🇮🇷",
