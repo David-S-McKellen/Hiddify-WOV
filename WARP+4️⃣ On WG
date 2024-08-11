@@ -151,7 +151,7 @@
       "local_address": "10.2.0.2/32",
       "private_key": "QMkFWThbS49mjQ6lgOYtI8YdqkQ+TCxgFuLfNWYo9VU=",
       "server": "185.107.56.69",
-      "server_port": 51820,
+      "server_port": 5060,
       "peer_public_key": "WM3qIvkeeD+ouwERuqCVZds82cvh+vsGQPG6ibBGDGA="
     },
 {
@@ -161,7 +161,7 @@
       "local_address": "10.2.0.2/32",
       "private_key": "MDHFAYP2YIqPBwz5qlfxTHSsD32Ng66tOZxdNMYtFEY=",
       "server": "149.102.226.239",
-      "server_port": 51820,
+      "server_port": 5060,
       "peer_public_key": "c+9CyG97uDKPSgCtd/sjvFoXTnswiHsj3kd2CpdXIUc="
     },
     {
