@@ -92,6 +92,7 @@
       "outbounds": [
         "auto",
         "iVPN.Pro-Sheida",
+        "iVPN.Pro-Sheida IPv6",
         "New York,New York 🇺🇸",
         "Warp Cloudflare",
         "Amsterdam,The Netherlands 🇳🇱"
@@ -103,6 +104,7 @@
       "tag": "auto",
       "outbounds": [
         "iVPN.Pro-Sheida",
+        "iVPN.Pro-Sheida IPv6",
         "New York,New York 🇺🇸",
         "Warp Cloudflare",
         "Amsterdam,The Netherlands 🇳🇱"
