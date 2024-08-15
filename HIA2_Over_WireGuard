@@ -140,7 +140,7 @@
     {
       "type": "hysteria2",
       "tag": "iVPN.Pro-Sheida IPv6",
-      "server": "2606:a8c0:101:b7::a",
+      "server": "[2606:a8c0:101:b7::a]",
       "server_port": 44800,
       "obfs": {
         "type": "salamander",
