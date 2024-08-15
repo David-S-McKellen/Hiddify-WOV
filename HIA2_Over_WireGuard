@@ -135,7 +135,29 @@
         }
       }
     },
-
+    {
+      "type": "hysteria2",
+      "tag": "iVPN.Pro-Sheida IPv6",
+      "server": "2606:a8c0:101:b7::a",
+      "server_port": 44800,
+      "obfs": {
+        "type": "salamander",
+        "password": "iVPN.Pro-Sheida-Khj%56GFdt%t6$d"
+      },
+      "password": "DjXjf4Y9aS",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "ech": {
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "ADn+DQA1AAAgACAAZB9u7FNS4y/luu+Gf/euB4b7qp5tXAFoc56rG/8IOwAIAAEA",
+            "AQABAAMAAicnAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
     {
       "type": "dns",
       "tag": "dns-out"
