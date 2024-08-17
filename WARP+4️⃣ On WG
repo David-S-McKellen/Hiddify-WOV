@@ -122,11 +122,7 @@
       "server": "162.159.192.13",
       "server_port": 968,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-       "reserved": [
-          54,
-          150,
-          167
-        ],
+      "reserved": "Npan",
       "mtu": 1316,
       "fake_packets": "40-80",
       "fake_packets_size": "40-100",
