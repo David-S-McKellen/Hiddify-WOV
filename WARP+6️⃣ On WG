@@ -121,7 +121,9 @@
       "server_port": 1014,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
        "reserved": [
-          54,150,167
+          54,
+          150,
+          167
         ],
       "mtu": 1316,
       "fake_packets": "40-80",
