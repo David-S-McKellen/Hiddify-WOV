@@ -18,7 +18,7 @@
       },
       {
         "tag": "dns-direct",
-        "address": "local",
+        "address": "https://sky.rethinkdns.com",
         "address_resolver": "dns-local",
         "detour": "direct"
       },
