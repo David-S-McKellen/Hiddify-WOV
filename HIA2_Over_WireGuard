@@ -134,10 +134,10 @@
       "type": "hysteria2",
       "tag": "iVPN.Pro-Sheida",
       "server": "38.175.197.118",
-      "server_port": 44800,
+      "server_port": 8443,
       "obfs": {
         "type": "salamander",
-        "password": "iVPN.Pro-Sheida-Khj%56GFdt%t6$d"
+        "password": "iVPN.Pro-Sheida-Khj%56GF"
       },
       "password": "DjXjf4Y9aS",
       "tls": {
