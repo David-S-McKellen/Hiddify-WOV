@@ -8,17 +8,17 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "https://208.67.222.222/dns-query",
+        "address": "https://9.9.9.11/dns-query",
         "address_resolver": "dns-direct"
       },
       {
         "tag": "dns-trick-direct",
-        "address": "https://sky.rethinkdns.com/",
+        "address": "https://9.9.9.11/dns-query",
         "detour": "direct-fragment"
       },
       {
         "tag": "dns-direct",
-        "address": "https://sky.rethinkdns.com",
+        "address": "149.112.112.11",
         "address_resolver": "dns-local",
         "detour": "direct"
       },
