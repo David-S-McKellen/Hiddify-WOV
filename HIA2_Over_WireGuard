@@ -14,12 +14,12 @@
       },
       {
         "tag": "dns-trick-direct",
-        "address": "149.112.112.11",
+        "address": "https://sky.rethinkdns.com/",
         "detour": "direct-fragment"
       },
       {
         "tag": "dns-direct",
-        "address": "https://sky.rethinkdns.com",
+        "address": "149.112.112.11",
         "address_resolver": "dns-local",
         "detour": "direct"
       },
