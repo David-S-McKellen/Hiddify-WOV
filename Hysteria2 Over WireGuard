@@ -13,7 +13,7 @@
       },
       {
         "tag": "dns-trick-direct",
-        "address": "https://9.9.9.11/dns-query",
+        "address": "https://sky.rethinkdns.com/",
         "detour": "direct-fragment"
       },
       {
