@@ -107,8 +107,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "iVPN.Pro-Sheida",
-        "iVPN.Pro-Sheida IPv6",
+        "HA2 IPv4",
+        "HA2 IPv6",
         "New York,New York 🇺🇸",
         "Warp Cloudflare",
         "Amsterdam,The Netherlands 🇳🇱"
@@ -119,8 +119,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "iVPN.Pro-Sheida",
-        "iVPN.Pro-Sheida IPv6",
+        "HA2 IPv4",
+        "HA2 IPv6",
         "New York,New York 🇺🇸",
         "Warp Cloudflare",
         "Amsterdam,The Netherlands 🇳🇱"
@@ -132,48 +132,32 @@
     },
     {
       "type": "hysteria2",
-      "tag": "iVPN.Pro-Sheida",
-      "server": "38.175.197.118",
-      "server_port": 8443,
+      "tag": "HA2 IPv4",
+      "server": "77.91.77.27",
+      "server_port": 39292,
       "obfs": {
         "type": "salamander",
-        "password": "iVPN.Pro-Sheida-Khj%56GF"
+        "password": "5449c086723e86d4"
       },
-      "password": "DjXjf4Y9aS",
+      "password": "f0126e9fe4014e17",
       "tls": {
         "enabled": true,
-        "insecure": true,
-        "ech": {
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "ADn+DQA1AAAgACAAZB9u7FNS4y/luu+Gf/euB4b7qp5tXAFoc56rG/8IOwAIAAEA",
-            "AQABAAMAAicnAAA=",
-            "-----END ECH CONFIGS-----"
-          ]
-        }
+        "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "iVPN.Pro-Sheida IPv6",
-      "server": "2606:a8c0:101:b7::a",
-      "server_port": 44800,
+      "tag": "HA2 IPv6",
+      "server": "2a12:5940:9794::2",
+      "server_port": 39292,
       "obfs": {
         "type": "salamander",
-        "password": "iVPN.Pro-Sheida-Khj%56GFdt%t6$d"
+        "password": "5449c086723e86d4"
       },
-      "password": "DjXjf4Y9aS",
+      "password": "f0126e9fe4014e17",
       "tls": {
         "enabled": true,
-        "insecure": true,
-        "ech": {
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "ADn+DQA1AAAgACAAZB9u7FNS4y/luu+Gf/euB4b7qp5tXAFoc56rG/8IOwAIAAEA",
-            "AQABAAMAAicnAAA=",
-            "-----END ECH CONFIGS-----"
-          ]
-        }
+        "insecure": true
       }
     },
     {
