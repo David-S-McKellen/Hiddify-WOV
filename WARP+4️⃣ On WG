@@ -133,8 +133,8 @@
         "2606:4700:110:8e96:7188:adf7:168e:529/128"
       ],
       "private_key": "YKXycxjE++fLtDVAlk+JSuQ4f+bdTngipxAl6qN/WEA=",
-      "server": "162.159.195.43",
-      "server_port": 7103,
+      "server": "162.159.195.128",
+      "server_port": 8854,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "Npan",
       "mtu": 1280,
