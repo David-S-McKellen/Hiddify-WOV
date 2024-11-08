@@ -130,13 +130,13 @@
     {
       "type": "hysteria2",
       "tag": "🇸🇪H2",
-      "server": "193.188.20.199",
-      "server_port": 443,
+      "server": "2a12:5940:9ab8::2",
+      "server_port": 37383,
       "obfs": {
         "type": "salamander",
-        "password": "4ff648165e163025"
+        "password": "f809a60274316cdd"
       },
-      "password": "234454ef8c3beddc",
+      "password": "4eb5646f51e94a84",
       "tls": {
         "enabled": true,
         "server_name": "www.google.com",
