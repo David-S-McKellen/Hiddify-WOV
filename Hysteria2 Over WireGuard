@@ -139,6 +139,7 @@
       "password": "4eb5646f51e94a84",
       "tls": {
         "enabled": true,
+        "server_name": "www.google.com",
         "insecure": true
       }
     },
