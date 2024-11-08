@@ -133,8 +133,8 @@
         "2606:4700:110:8a84:4e32:abc4:b690:e50f/128"
       ],
       "private_key": "YKXycxjE++fLtDVAlk+JSuQ4f+bdTngipxAl6qN/WEA=",
-      "server": "2606:4700:d0::9a87:10cd:c802",
-      "server_port": 1387,
+      "server": "[2606:4700:d0::79b8:9332:5fa:fcff]",
+      "server_port": 3854,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "Npan",
       "mtu": 1280,
