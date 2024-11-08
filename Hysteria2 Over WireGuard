@@ -38,7 +38,7 @@
         "server": "dns-direct"
       },
       {
-        "domain": "connectivitycheck.gstatic.com",
+        "domain": "cp.cloudflare.com",
         "server": "dns-remote",
         "rewrite_ttl": 3000
       },
@@ -122,7 +122,7 @@
         "Warp Cloudflare",
         "Amsterdam,The Netherlands 🇳🇱"
       ],
-      "url": "http://connectivitycheck.gstatic.com/generate_204",
+      "url": "http://cp.cloudflare.com",
       "interval": "10m0s",
       "tolerance": 1,
       "idle_timeout": "30m0s"
@@ -139,9 +139,7 @@
       "password": "KevinZakarian",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true,
-        "alpn": "h3"
+        "insecure": true
       }
     },
     {
