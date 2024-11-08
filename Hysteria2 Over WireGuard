@@ -164,7 +164,7 @@
     {
       "type": "wireguard",
       "tag": "Warp Cloudflare",
-      "detour": "🇸🇪H2",
+      "detour": "H2",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8978:945c:8716:e3d2:1783/128"
@@ -179,7 +179,7 @@
     {
       "type": "wireguard",
       "tag": "Amsterdam,The Netherlands 🇳🇱",
-      "detour": "🇸🇪H2",
+      "detour": "H2",
       "local_address": "10.2.0.2/32",
       "private_key": "QMkFWThbS49mjQ6lgOYtI8YdqkQ+TCxgFuLfNWYo9VU=",
       "server": "185.107.56.69",
@@ -189,7 +189,7 @@
     {
       "type": "wireguard",
       "tag": "New York,New York 🇺🇸",
-      "detour": "🇸🇪H2",
+      "detour": "H2",
       "local_address": "10.2.0.2/32",
       "private_key": "MDHFAYP2YIqPBwz5qlfxTHSsD32Ng66tOZxdNMYtFEY=",
       "server": "149.102.226.239",
