@@ -106,7 +106,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇪H2",
+        "H2",
         "New York,New York 🇺🇸",
         "Warp Cloudflare",
         "Amsterdam,The Netherlands 🇳🇱"
@@ -117,7 +117,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪H2",
+        "H2",
         "New York,New York 🇺🇸",
         "Warp Cloudflare",
         "Amsterdam,The Netherlands 🇳🇱"
@@ -129,14 +129,14 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇸🇪H2",
-      "server": "2a12:5940:9ab8::2",
-      "server_port": 37383,
+      "tag": "H2",
+      "server": "kevin.serverv.net",
+      "server_port": 8443,
       "obfs": {
         "type": "salamander",
-        "password": "f809a60274316cdd"
+        "password": "KevinZakarian"
       },
-      "password": "4eb5646f51e94a84",
+      "password": "KevinZakarian",
       "tls": {
         "enabled": true,
         "server_name": "www.google.com",
