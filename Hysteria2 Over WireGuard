@@ -130,13 +130,13 @@
     {
       "type": "hysteria2",
       "tag": "KevinVPN",
-      "server": "kevin.serverv.net",
-      "server_port": 8443,
+      "server": "2a12:5940:9ab8::2",
+      "server_port": 37383,
       "obfs": {
         "type": "salamander",
-        "password": "KevinZakarian"
+        "password": "f809a60274316cdd"
       },
-      "password": "KevinZakarian",
+      "password": "4eb5646f51e94a84",
       "tls": {
         "enabled": true,
         "insecure": true
